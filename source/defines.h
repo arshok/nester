@@ -1,3 +1,6 @@
+#ifndef NES_DEFINES_6502_H
+#define NES_DEFINES_6502_H
+
 #include <utility>
 #include <assert.h>
 #include <stdint.h>
@@ -60,3 +63,5 @@ class REG8 {
         return !((*this)==rhs);
     }
 };
+
+#endif
